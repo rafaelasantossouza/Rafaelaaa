@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RafaelaI — Conteúdo Exclusivo</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#000;
+      --primary:#F26D21;
+      --button:#7C3AED;
+      --muted:rgba(255,255,255,0.75);
+      --glass:rgba(255,255,255,0.04);
+      --card-radius:16px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#000;color:#fff;font-family:Poppins,Montserrat}
+    .container{padding:20px;max-width:1100px;margin:auto}
+
+    .banner{position:relative;border-radius:16px;overflow:hidden;height:330px;background:#111;display:flex;align-items:flex-end;padding:20px}
+    .banner .bg{position:absolute;inset:0;background:url('imagens/capa.jpg');background-size:cover;background-position:center;filter:brightness(.7)}
+    .banner-stats{position:absolute;left:20px;top:20px;background:rgba(0,0,0,.5);padding:8px 12px;border-radius:10px;font-weight:700;text-shadow:0 2px 6px #000}
+
+    .overlay{position:relative;z-index:3;display:flex;gap:16px;width:100%}
+    .profile{width:120px;height:120px;border-radius:50%;overflow:hidden;border:4px solid rgba(255,255,255,.2)}
+    .profile img{width:100%;height:100%;object-fit:cover}
+
+    .verified{position:absolute;bottom:-6px;right:-6px;background:#1DA1F2;padding:6px;border-radius:50%;border:3px solid #000;font-size:14px}
+
+    .name h1{margin:0;font-size:26px;font-weight:700;font-family:Montserrat}
+    .badge-verified{width:12px;height:12px;background:#1DA1F2;border-radius:50%}
+
+    .bio{margin-top:14px;background:rgba(255,255,255,.05);padding:14px;border-radius:12px;color:var(--muted);font-size:14px}
+
+    .preview{margin-top:20px;background:#111;padding:10px;border-radius:14px}
+    .preview video{width:100%;border-radius:12px}
+
+    .plans{margin-top:20px;display:grid;gap:14px}
+    .card{background:#0c0c0c;padding:16px;border-radius:14px;border:1px solid rgba(255,255,255,.08)}
+    .card h3{margin:0}
+    .price{font-size:22px;font-weight:700;margin:6px 0}
+    .btn{background:var(--button);padding:12px 16px;color:#fff;text-decoration:none;border-radius:10px;font-weight:700;display:block;text-align:center;margin-top:10px}
+
+    .carousel-wrap{margin-top:24px}
+    .carousel{display:flex;gap:10px;overflow-x:auto;padding-bottom:10px}
+    .carousel img{width:230px;height:150px;border-radius:12px;object-fit:cover}
+
+    @media(min-width:720px){.plans{grid-template-columns:repeat(3,1fr)}.profile{width:150px;height:150px}.name h1{font-size:32px}}
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <section class="banner">
+    <div class="bg"></div>
+    <div class="banner-stats">👁 547 &nbsp; 📸 236 &nbsp; ❤️ 103.1K</div>
+
+    <div class="overlay">
+      <div class="profile">
+        <img src="imagens/perfil.jpg">
+        <div class="verified">✔</div>
+      </div>
+
+      <div>
+        <div class="name"><h1>RafaelaI</h1><div class="badge-verified"></div></div>
+
+        <div class="bio">
+          “Sua baixinha de 1,20 cm com a bunda grande.SABE AQUELA CHUPADA DE PÉ?😛🪵 Aqui vc encontrará conteúdos originais, eu GEMENDO, PAU NA MINHA BUCETA NO MEU 🆒 TODO ABERTINHO, SEXO REAL COM GOZADA...AQUI SEREI SUA SAFADA,SÓ PARO quando vc 💦 !!!! Basta se inscrever mensalmente...
+”
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="preview">
+    <div style="font-weight:700;margin-bottom:8px">Preview exclusivo (vídeo)</div>
+    <video controls poster="imagens/preview1.jpg">
+      <source src="" type="video/mp4">
+    </video>
+  </section>
+
+  <section class="plans">
+    <div class="card">
+      <h3>Acesso Total</h3>
+      <div class="price">R$19,90</div>
+      <a class="btn" href="https://pay.kiwify.com.br/UlzVmtC">Contratar — R$19,90</a>
+    </div>
+    <div class="card">
+      <h3>Acesso 3 Meses</h3>
+      <div class="price">R$39,90</div>
+      <a class="btn" href="https://pay.kiwify.com.br/ZlCBJte">Contratar — R$39,90</a>
+    </div>
+    <div class="card">
+      <h3>Acesso 6 Meses</h3>
+      <div class="price">R$59,90</div>
+      <a class="btn" href="https://pay.kiwify.com.br/paxxxBb">Contratar — R$59,90</a>
+    </div>
+  </section>
+
+  <section class="carousel-wrap">
+    <div style="font-weight:700;margin-bottom:6px">🔥 Previews do que te espera lá dentro...</div>
+    <div class="carousel">
+      <img src="imagens/preview1.jpg">
+      <img src="imagens/preview2.jpg">
+      <img src="imagens/preview3.jpg">
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
